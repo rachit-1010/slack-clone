@@ -1,0 +1,1 @@
+insert into reactions (msg_id, user_id, emoji) values (1, 1, '👍');

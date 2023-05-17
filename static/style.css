@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+}
+
+
+
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+#leftsection {
+    /* display: inline-block; */
+    position: fixed;
+    width: fit-content;
+    height: 100vh;
+}
+
+#middlesection {
+    /* display: inline-block; */
+    position: fixed;
+    /* width: fit-content; */
+    height: 100vh;
+    left: 17vw;
+    overflow-y: auto;
+}
+
+#middlesection3sections {
+    /* display: inline-block; */
+    position: fixed;
+    /* width: fit-content; */
+    width: 53vw;
+    height: 100vh;
+    left: 17vw;
+    overflow-y: auto;
+    border-right: 1px solid grey;
+}
+
+#rightsection {
+    position: fixed;
+    left: 70vw;
+    width: 30vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#leftpanelcontainer {
+    width: 17vw;
+    height: 100vh;
+    background-color: #3f0e40;
+}
+
+#channelsheader {
+    color: #faf9fb;
+    border-bottom: 1px solid #faf9fb;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 1vh;
+}
+
+.channels {
+    color: #997f99;
+    font-size: 20px;
+    padding: 2vh 0;
+    border-bottom: 1px solid #faf9fb;
+
+}
+
+.channel {
+    padding: 0.5vh 0;
+    padding-left: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.2vw;
+    border-radius: 5px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.channel:hover {
+    /* background-color: #1164a3; */
+    background-color: #4d2a51;
+    cursor: pointer;
+    color: #faf9fb;
+}
+
+.hash {
+    display: inline;
+    padding-right: 1vw;
+}
+
+.channelname {
+    display: inline;
+}
+
+.active {
+    background-color: #4d2a51;
+    color: #faf9fb;
+}
+
+#plus {
+    background-color: #532753;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+#addchannels:hover{
+    background-color: #631863;
+}
+
+#addChannelInput {
+    padding: 1vh;
+    margin: 2vh;
+    border: none;
+    border-radius: 5px;
+}
+
+#addChannelBtn {
+    padding: 1vh;
+    margin: 0vh 2vh;
+    border: none;
+    border-radius: 5px;
+}
+
+#addChannelBtn:hover {
+    background-color: #631863;
+    cursor: pointer;
+}
+
+/* ---------------------------- */
+/* Starting with middle section */
+/* ---------------------------- */
+
+#middlesection {
+    position: fixed;
+    left: 17vw;
+    top: 0;
+    width: 83vw;
+    background-color: white;
+}
+
+#middlepanelcontainer {
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 24vh;
+}
+
+/* #middlepanelcontainer3sections {
+    width: 60%;
+    background-color: #ffffff;
+} */
+
+#middlepanelcontainer3section {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#channelnameinmessages {
+    /* display: flex; */
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2vh 3vw;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    /* background-color:#4d2a51; */
+    /* color:#faf9fb; */
+}
+
+#profile {
+    float: right;
+    font-size: 22px ;
+}
+
+.message {
+    padding: 1vh 2vw;
+    /* border-bottom: 1px solid #faf9fb; */
+}
+
+.message:hover {
+    background-color: #f8f8f8;
+}
+
+.messageauthor {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 1vw;
+}
+
+.messagetime {
+    font-size: 13px;
+    font-weight: 200;
+    padding-top: 0.5vh;
+    color: grey;
+}
+
+.messagecontent {
+    clear: both;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 1vh 0;
+}
+
+.addemojibtn {
+    padding: 3px 6px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 0.5vw;
+}
+
+.addemojibtn:hover {
+    background-color:#ffffff;
+    cursor: pointer;
+}
+
+.emojipanel {
+    padding: 1vh 0;
+}
+
+.emojilist {
+    margin: 0 0.5vw;
+    padding: 4px;
+    border-radius: 10px;
+    border: none
+}
+
+.emojilist:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#selectedEmoji {
+    border: 1px solid#3f0e40;
+}
+
+.replypanel {
+    padding: 1vh 1vw;
+    margin: 1vh 0vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.replypanel:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.replytext {
+    text-decoration: none;
+    color: #1164a3;
+    font-weight: 600;
+}
+
+.replytext:hover {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------- */
+/* Starting with right Section */
+/* ----------------------------- */
+
+#threadHeader {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2vh 3vw;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topMessage {
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+#closeReplies {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0.5vw;
+}
+
+#closeReplies:hover {
+    cursor: pointer;
+}
+
+/* ---------------------- */
+/* Post Message Box CSS */
+/* ---------------------- */
+
+#postmsgpanel {
+    position: fixed;
+    left: 17vw;
+    bottom: 0;
+    width: 83vw;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+#postmsgtextarea {
+    width: 90%;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#postmsgfooter {
+    text-align: left;
+    margin-left: 4vw;
+}
+
+#postmsgbutton {
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* margin-right: 0.5vw; */
+    margin-top: 1vh;
+    font-size: 16px;
+    background-color: rgb(55, 181, 55);
+    color: white;
+}
+
+#postmsgbutton:hover {
+    cursor: pointer;
+    background-color: rgb(0, 128, 0);
+}
+
+
+#postmsgpanelsmall {
+    position: fixed;
+    left: 17vw;
+    bottom: 0;
+    width: 53vw;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+#postthread {
+    position: sticky;
+    left: 0vw;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+    background-color: #ffffff;
+}
+
+/* --------------------------------- */
+/* CSS for login page */
+/* --------------------------------- */
+
+#loginPageContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color:#9411a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm {
+    background-color: white;
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5vh 2vw;
+    height: fit-content;
+}
+
+#loginFormHeader {
+    border-bottom: 1px solid grey;
+    padding: 1vw;
+    margin-bottom: 5vh;
+}
+
+#unamepswd {
+    padding: 1vw;
+    font-size: 20px;
+}
+
+.labelContainer {
+    padding: 1vw;
+}
+
+.loginFormLabel {
+    padding: 1vw;
+}
+
+.loginFormIunputBox {
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#loginFormFooter {
+    text-align: center;
+}
+
+.loginFormButton {
+    padding: 1vw 1vw;
+    margin: 1vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: rgb(55, 181, 55);
+    color: white;
+}
+
+.loginFormButton:hover {
+    cursor: pointer;
+    background-color: rgb(0, 128, 0);
+}

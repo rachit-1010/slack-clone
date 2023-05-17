@@ -1,0 +1,34 @@
+insert into messages (channel_id, user_id, body, num_replies) values (1, 1, 'Hello world!', 1);
+insert into messages (channel_id, user_id, body) values (1, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (1, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (1, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (1, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (1, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (1, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body, replies_to) values (1, 1, 'Hello world!', 1);
+
+insert into messages (channel_id, user_id, body, num_replies) values (2, 1, 'Hello world from channel 2!', 1);
+insert into messages (channel_id, user_id, body) values (2, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (2, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (2, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (2, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 1, 'Hello world!');
+insert into messages (channel_id, user_id, body) values (2, 2, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body) values (2, 3, 'Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john Hello this is john john ');
+insert into messages (channel_id, user_id, body, replies_to) values (2, 1, 'Hello world!, this is reply to first message of channel 2', 17);
+
